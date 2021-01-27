@@ -11,25 +11,43 @@
 	padding: 0;
     box-sizing: border-box;
 }
-H1{
+H1 {
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
-H2{
+H2 {
 	color: #cf0;
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	font-weight: 400;
 }
-.text {
+H3 {
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+H4 {
+	color: #cf0;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+.text  {
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	font-weight: 200;
 }
-.sub_txt{
+.percentage {
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+.sub_txt {
 	color: #fff;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.19rem;
@@ -41,9 +59,9 @@ main {
     align-items: center;
     justify-content: center;
 }
-.glass{
+.glass {
 	background: #0074ff;
-	min-height: 80vh;
+	min-height: 90vh;
 	width: 80%;
 	background: linear-gradient(
 		to right bottom,
@@ -56,7 +74,7 @@ main {
 	display: flex;
 }
 
-.dashboard{
+.dashboard {
 	flex: 1;
 	display: flex;
 	flex-direction: column;
@@ -71,14 +89,14 @@ main {
 
 }
 
-.games{
+.games {
 	flex: 3;
-	margin: 4rem;
+	margin: 1.5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 }
-.card{
+.card {
 	display: flex;
 	background: linear-gradient(
 		to left top,
@@ -86,21 +104,29 @@ main {
 		rgba(50,124,227,0.8)
 		);
 	border-radius: 1rem;
-	margin: 1.5rem 0rem ;
-	padding: 1rem;
+	margin: 1.2rem 0rem ;
+	padding: 0.5rem;
 	box-shadow: 3px 3px 15px;
 	justify-content: space-between;
 
 }
-.name{
+.name {
 	
 	background: #43BFFA;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	border-radius: 1rem;
-	padding: 1rem;
+	padding: 0.4rem;
+	cursor:pointer;
+	
 }
+.name:hover{
+	background: #cf0;
+	color:#fff;
+	
+}
+
 </style>
 </head>
 <body>
@@ -112,13 +138,14 @@ main {
 					<p class="sub_txt">Walter Chancafe</p>
 					<p class="sub_txt">Marianela Galvan</p>
 					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
-					<p class="sub_txt">Elizabeth CCaccya</p>
+					<p class="sub_txt">Zulema Trinidad</p>
+					<p class="sub_txt">Jully Fernández</p>
+					<p class="sub_txt">Brigith Echevarría</p>
+					<p class="sub_txt">José Fernández</p>
+					<p class="sub_txt">Jose Ramirez</p>
+					<p class="sub_txt">Martín Lara</p>
+					<p class="sub_txt">Johnny Oré</p>
+					<p class="sub_txt">Alfredo Fajardo</p>
 					
 				</div>
 				<div class="links">
@@ -127,69 +154,121 @@ main {
 					</div>
 					<div class="link">
 						<h2>Fecha :</h2>
-						<p class="text">25 Enero</p>
+						<p class="text">27 Enero 2021</p>
 					</div>
 					<div class="link">
 						<h2>Hora :</h2>
-						<p class="text">4:00 p.m.</p>
+						<p class="text">9:00 a.m. a 1:00 p.m.</p>
 					</div>
 					<div class="link">
 						<h2>Medio : </h2>
-						<p class="text">Aplicación Meet</p>
+						<p class="text">Enlace vía Meet</p>
 					</div>
 				</div>
 			</div>
 			<div class="games">
 				<div class="status">
-					<h1>Active Games</h1>
+					<h1>Agenda Actividad</h1>
 					<input type="text" />
 				</div>
 				<div class="cards">
 					<div class="card">
 						<div class="name">
-							<h4>Johnny ORE HUAMANI</h4>
+							<h3>JULLY FERNÁNDEZ</h3>
 						</div>
 						<div class="card-info">
-							<h2>Assass cred valhalla</h2>
-							<div class="intro">John</div>
-							<p>ps5 version</p>
+							<h4> &#128413; Caso e ocentes sobre contrato verano 2021</h4>
+											
 							<div class="progress"></div>
 						</div>
 						<h2 class="percentage">15 min.</h2>
 					</div>
 					<div class="card">
+						<div class="name">
+							<h3>BRIGITH ECHEVARRÍA</h3>
+						</div>
 						<div class="card-info">
-							<h2>Assass cred valhalla</h2>
-							<p>ps5 version</p>
+							<h4> &#128413; Recepción Recibos por Honorarios verano 2021</h4>
+							
 							<div class="progress"></div>
 						</div>
 						<h2 class="percentage">15 min.</h2>
 					</div>
 					<div class="card">
+						<div class="name">
+							<h3>MARTÍN LARA</h3>
+						</div>
 						<div class="card-info">
-							<h2>Assass cred valhalla</h2>
-							<p>ps5 version</p>
+							 <h4> &#128413; Disponibilidad horario 2021 (avance) </h4>
+							<h4> &#128413; Horario colegio 2021 (avance)</h4>
+							
 							<div class="progress"></div>
 						</div>
 						<h2 class="percentage">15 min.</h2>
 					</div>
 					<div class="card">
+						<div class="name">
+							<h3>JOSÉ FERNANDEZ</h3>
+						</div>
 						<div class="card-info">
-							<h2>Assass cred valhalla</h2>
-							<p>ps5 version</p>
+							<h4> &#128413; Plan de estudio 2021 ciclo UNI-CATÓLICA </h4>
+						</div>
+						<h2 class="percentage">15 min.</h2>
+					</div>
+					<div class="card">
+						<div class="name">
+							<h3>JOSE RAMIREZ</h3>
+						</div>
+						<div class="card-info">
+							<h4> &#128413; Plan de estudio ciclo San Marcos</h4>
+							<h4> &#128413; PPT pendientes (reunión previa)</h4>
+							<h4> &#128413; Simulacro repaso (revisión final)</h4>
 							<div class="progress"></div>
 						</div>
 						<h2 class="percentage">15 min.</h2>
 					</div>
 					<div class="card">
+						<div class="name">
+							<h3>MARIANELA GALVAN</h3>
+						</div>
 						<div class="card-info">
-							<h2>Assass cred valhalla</h2>
-							<p>ps5 version</p>
+							<h4> &#128413; Carpeta y evaluación diagnostica </h4>
+						</div>
+						<h2 class="percentage">15 min.</h2>
+					</div>
+					<div class="card">
+						<div class="name">
+							<h3>JOHNNY ORÉ</h3>
+						</div>
+						<div class="card-info">
+							<h4> &#128413; Informe de PPT 2021 </h4>
+							<h4> &#128413; Balotario mensual I y bimestral I </h4>
+						</div>
+						<h2 class="percentage">15 min.</h2>
+					</div>
+					<div class="card">
+						<div class="name">
+							<h3>ELIZABETH CCACCYA</h3>
+						</div>
+						<div class="card-info">
+							<h4> &#128413; Calendarización colegio 2021 (confirmación)</h4>
+							<h4> &#128413; Material Introductorio colegio 2021</h4>
+							<h4> &#128413; Evaluaciones previa coordinación con el área DGS</h4>
 							<div class="progress"></div>
 						</div>
 						<h2 class="percentage">15 min.</h2>
 					</div>
-					
+					<div class="card">
+						<div class="name">
+							<h3>ALFREDO FAJARDO</h3>
+						</div>
+						<div class="card-info">
+							<h4> &#128413; Informe de Capacitación NITRO</h4>
+											
+							<div class="progress"></div>
+						</div>
+						<h2 class="percentage">15 min.</h2>
+					</div>
 				</div>
 			</div>
 		</section>
